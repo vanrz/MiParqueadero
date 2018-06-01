@@ -11,7 +11,33 @@ package parqueadero;
  */
 public class Parqueadero {
     
-    misVehiculos Vehiculo[100]=new Vehiculo();
+    Vehiculo miVehiculo[]=new Vehiculo[100];
+    
+    public void consultarCupo(){
+        
+        for (int i=0;i<100;i++){
+            
+            miVehiculo[i]=new Vehiculo();
+            
+            
+        
+    }
+        
+ 
+    public void retirarVehiculo(){
+        
+        
+        
+        
+        
+    }    
+    
+    public void ingresarVehiculo(){
+        
+        
+        
+    }
+}
     
     
     

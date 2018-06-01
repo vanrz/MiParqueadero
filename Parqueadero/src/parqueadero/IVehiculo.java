@@ -9,12 +9,8 @@ package parqueadero;
  *
  * @author Estudiantes
  */
-  public abstract interface IVehiculo {
+  public interface IVehiculo {
     
-    /**
-     *
-     * @return
-     */
     private String placa();
     private String propietario();
     private float cilindraje();
