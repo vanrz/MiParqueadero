@@ -41,12 +41,12 @@ public class Principal {
                 misVehiculo.setHoraEntrada(miScann.nextDouble);
                 System.out.println("Guardado");
             case 2:
-                System.out.println("digite placa del vehiculo");
+                System.out.println("digite hora de entrada del  vehiculo");
                 misVehiculo.setHoraEntrada(miScann.nextDouble());
                 System.out.println("Idigite hora de salida");
                 misVehiculo.setHoraSalida(miScann.nextDouble());
                 
-                misVehiculo.valorParqueadero();
+                misVehiculo.retirarVehiculo();
                 System.out.println(miVehiculo.getvp());
             case 3:
                 
