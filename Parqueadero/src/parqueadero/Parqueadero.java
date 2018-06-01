@@ -18,23 +18,36 @@ public class Parqueadero {
         for (int i=0;i<100;i++){
             
             miVehiculo[i]=new Vehiculo();
-            
+        }
+         if (miVehiculo == null) {
+            System.out.println("Hay cupos disponibles.");
+        } else {
+            System.out.println("No hay cupos disponibles.");
+}
             
         
     }
         
- 
-    public void retirarVehiculo(){
+    public int retirarVehiculo(){
+        
+       
+       int HoraEntrada=0;
+        int HoraSalida = 0;
+        int  vp=0;
         
         
+        vp= (HoraSalida-HoraEntrada)*100;
+        
+        return vp;
+        }
         
         
         
     }    
     
     public void ingresarVehiculo(){
-        
-        
+    
+}        
         
     }
 }

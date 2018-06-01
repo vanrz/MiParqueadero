@@ -10,16 +10,7 @@ package parqueadero;
  * @author Estudiantes
  */
 public class Vehiculo implements IVehiculo {
-    double horaEntrada;
-    double horaSalida;
-    double vp;
     
-      public  double valorParqueadero(){
-          
-          vp= (horaSalida-horaEntrada)*100;
-        return 0;
-          
-                  }
       
       
           

@@ -9,7 +9,7 @@ package parqueadero;
  *
  * @author Estudiantes
  */
-  public interface IVehiculo {
+  interface IVehiculo {
     
     private String placa();
     private String propietario();
